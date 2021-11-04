@@ -1,9 +1,9 @@
 #
 
 # this is where to create the project. change to other folder if needed
-set PROJ piccolo_3
+set PROJ cheri_p1
 
-set FPGA cheri_piccolo_32bit
+set FPGA cheri_p1
 #[file dirname [file normalize [info script]]]
 
 create_project $PROJ $FPGA/$PROJ -part xc7a100tcsg324-1
@@ -29,3 +29,5 @@ set_property top ${PROJ}_wrapper [get_filesets sim_1]
 set_property top_lib xil_defaultlib [get_filesets sim_1]
 
 generate_target all [get_files $FPGA/$PROJ/$PROJ.srcs/sources_1/bd/$PROJ/$PROJ.bd]
+
+launch_runs impl_1

@@ -224,7 +224,7 @@ module mkSoC_Map (SoC_Map_IFC);
    // SPI 0 Lite AXI
 
    let axi_quad_spi_0_lite_addr_range = Range {
-      base: 'h_6234_0000,
+      base: 'h_6240_0000,
       size: 'h_0000_1000    // 4K
    };
 
