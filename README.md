@@ -2,7 +2,7 @@
 
 Piccolo processor implementation on the Arty A7 100T FPGA Board. 
 
-# Description
+# Folder Description
 
 bitstream: bitstream ready to be upload on the Arty A7 100T FPGA ([check the map of peripherals](#Peripherals)).
 bootrom: `bootrom.coe` file generated for the vivado memory block IP. This was copied from the [BESSPIN-GFE repository](https://github.com/GaloisInc/BESSPIN-GFE). File generated for `NO_PCI=1 / CPU_SPEED=25000000 / #define BOOT_START 0x40400000`.
