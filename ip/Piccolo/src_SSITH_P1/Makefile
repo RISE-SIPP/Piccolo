@@ -47,7 +47,7 @@ TAGS_ALIGN = 32
 
 # ================================================================
 # Search path for bsc for .bsv files
-CONTRIB_DIRS ?= /home/leo/bsc/bsc-contrib/Libraries/Bus
+CONTRIB_DIRS ?= %/Libraries/Bus
 
 BSV_LIBS = $(REPO)/libs
 BLUESTUFF = $(BSV_LIBS)/BlueStuff
