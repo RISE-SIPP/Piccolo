@@ -1,3 +1,6 @@
+Personal Notes:
+The Map file at sr_BSV/SoC_Map.bsv was updated to remove the duplicate address. Line 227 was modified to 0x62400000 (Based on the GFE project).
+
 Copyright (c) 2019 Bluespec, Inc.  All Rights Reserved.
 
 This directory is intended for DARPA SSITH users; others may safely ignore it.
